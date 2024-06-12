@@ -9,21 +9,24 @@ import Team from './components/Team'
 import Testimonials from './components/Testimonials'
 import React, { useEffect } from 'react';
 import AOS from 'aos';
-import 'aos/dist/aos.css';
+import Help from './components/Help'
 
 function App() {
   return (
     <>
-      <div>
+      <div
+        className=' bg-headerBackground bg-no-repeat bg-cover'
+      >
         <Navbar />
         <Hero />
-        <About />
-        <Services />
-        <Anticipate />
-        <Team />
-        <Testimonials />
-        <Footer />
       </div>
+      <About />
+      <Testimonials />
+      <Services />
+      <Anticipate />
+      <Help />
+      <Team />
+      <Footer />
     </>
   )
 }

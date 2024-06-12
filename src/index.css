@@ -1,3 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+header ul li {
+    content: '';
+    position: relative;
+    height: 100%;
+    transition: .5s;
+}
+
+header ul li:hover::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: orange;
+    bottom: 0;
+    transform: translateX(-3%);
+    transform: translateY(52px);
+    transition: .5s;
+}
+
+#btn {
+    padding: .8rem 2rem;
+    background: orange;
+    color: white;
+    border-radius: 10px;
+}
+
+#after {
+    content: '';
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 15px;
+    font-size: 1rem;
+    display: flex;
+    gap: 2rem;
+    margin: 1rem;
+}
+
+#after::before {
+    height: 2px !important;
+    content: '';
+    width: 50%;
+    background-color: #ec883d !important;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    transform: translate(100px, 2px);
+    display: block;
+}
+
+#after::after {
+    height: 2px !important;
+    content: '';
+    width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(100px, -1px);
+    background: #ec883d;
+}
+
+#iron {
+    list-style-type: '->';
+}
+
+#second-bar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background-color: white;
+}
+
+#second-bar::after {
+    background: gold;
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 350px;
+    transform: translate(-20px, 22px);
+    gap: 2rem;
+    left: -50px;
+    display: inline-block;
+    z-index: -1;
+
+}
+
+#second-bar::before {
+    background: gold;
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 350px;
+    display: flex;
+    transform: translate(40px);
+    gap: 2rem;
+    left: -50px;
+    display: inline-block;
+    z-index: -1;
+}
+
+/* styles.css */
+.left-arrow,
+.right-arrow {
+    background-color: gray;
+    border-radius: 50%;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 2;
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}
+
+.left-arrow:hover,
+.right-arrow:hover {
+    background-color: darkgray;
+}
