@@ -16,7 +16,7 @@ const Navbar = () => {
     return (
         <>
             <header
-                className='p-10 flex justify-between items-center border-b border-gold bg-[#000000d0] text-gold'
+                className='p-10 flex justify-between items-center border-b border-gold bg-[#000000d0] text-gold h-full'
             >
                 <div>
                     <h1>Versalink</h1>
@@ -40,7 +40,15 @@ const Navbar = () => {
                         className=' text-white hover:text-gold '
                     >More</li>
                 </ul>
+                <details className="md:hidden dropdown  bg-gold">
+                    <summary className="m-1 btn">open or close</summary>
+                    <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
+                        <li><a>Item 1</a></li>
+                        <li><a>Item 2</a></li>
+                    </ul>
+                </details>
             </header>
+
         </>
     )
 }

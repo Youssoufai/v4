@@ -13,7 +13,7 @@ const Services = () => {
     return (
         <>
             <section
-                className='p-12 h-full bg-[#f8eed3]'
+                className='p-12 h-full bg-neutral'
             >
                 <div
                     className='space-y-8 flex flex-col items-center'
@@ -24,15 +24,17 @@ const Services = () => {
                     >News & Events</h1>
                     <h1
                         className='text-center text-3xl'
-                    >Stay updated from stories from our team</h1>
+                    >Stay updated with stories from our team</h1>
                 </div>
                 <div>
 
                     <div
-                        className='flex gap-2 justify-between p-9'
+                        className='flex flex-col md:flex-row justify-center items-center gap-8 md:justify-between p-9 '
+
                     >
                         <div
-                            className='space-y-5 w-[350px] text-center flex flex-col items-center'
+                            className='space-y-5 p-9 w-[350px] text-center flex flex-col items-center shadow-md  shadow-navyBlue rounded-lg md:shadow-none'
+                            data-aos="fade-left"
                         >
                             <img src={img}
                                 className='w-[300px] h-[230px]'
@@ -43,7 +45,8 @@ const Services = () => {
                             </p>
                         </div>
                         <div
-                            className='space-y-5 w-[350px] text-center flex flex-col items-center'
+                            className='space-y-5 w-[350px] text-center flex flex-col items-center shadow-md p-9 shadow-navyBlue rounded-lg md:shadow-none '
+                            data-aos="fade-up"
                         >
                             <img src={img}
                                 className='w-[300px] h-[230px]'
@@ -54,7 +57,8 @@ const Services = () => {
                             </p>
                         </div>
                         <div
-                            className='space-y-5 w-[350px] text-center flex flex-col items-center'
+                            className='space-y-5 w-[350px] text-center flex flex-col items-center shadow-md p-9 shadow-navyBlue rounded-lg md:shadow-none'
+                            data-aos="fade-right"
                         >
                             <img src={img}
                                 className='w-[300px] h-[230px]'

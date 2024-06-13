@@ -5,7 +5,7 @@ const Bottom = () => {
     return (
         <>
             <section
-                className='flex gap-4 bg-[black] text-white p-12'
+                className='flex gap-4 bg-neutral text-white p-12'
             >
                 <div
                     className='p-4 space-y-4 w-[45%] justify-center items-center'
@@ -18,10 +18,10 @@ const Bottom = () => {
                     <ul
                         className='space-y-3 text-blue'
                     >
-                        <li>About Versalink</li>
-                        <li>Versalink Post</li>
-                        <li>Versalink Development Initiative</li>
-                        <li>Versalink Clothing Brand</li>
+                        <li className='hover:underline hover:cursor-pointer'>About Versalink</li>
+                        <li className='hover:underline hover:cursor-pointer'>Versalink Post</li>
+                        <li className='hover:underline hover:cursor-pointer'>Versalink Development Initiative</li>
+                        <li className='hover:underline hover:cursor-pointer'>Versalink Clothing Brand</li>
                     </ul>
                 </div>
                 <div
@@ -31,16 +31,24 @@ const Bottom = () => {
                     <ul
                         className='flex gap-4 m-5'
                     >
-                        <li>
+                        <li
+                            className='hover:cursor-pointer'
+                        >
                             <FaFacebook />
                         </li>
-                        <li>
+                        <li
+                            className='hover:cursor-pointer'
+                        >
                             <BsTwitterX />
                         </li>
-                        <li>
+                        <li
+                            className='hover:cursor-pointer'
+                        >
                             <BsInstagram />
                         </li>
-                        <li>
+                        <li
+                            className='hover:cursor-pointer'
+                        >
                             <BsWhatsapp />
                         </li>
                     </ul>

@@ -1,10 +1,13 @@
 import React, { useEffect } from 'react';
 import { FaChevronLeft } from 'react-icons/fa6';
+import { AOS } from 'aos';
+import 'aos/dist/aos.css';
 const Testimonials = () => {
     return (
         <>
             <section
-                className='p-12 space-y-12 bg-brown'>
+                className='p-12 space-y-12 bg-brown'
+                data-aos-duration="3000">
                 <h1
                     className='text-4xl text-center text-gold'
                 >Our Core</h1>
@@ -13,6 +16,10 @@ const Testimonials = () => {
                 >
                     <div
                         className=' space-y-3'
+                        data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-back"
+                        data-aos-delay="300"
+                        data-aos-offset="0"
                     >
                         <h1
                             className='text-2xl text-gold'
@@ -24,6 +31,10 @@ const Testimonials = () => {
 
                     <div
                         className=' space-y-3'
+                        data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-back"
+                        data-aos-delay="300"
+                        data-aos-offset="0"
                     >
                         <h1
                             className='text-2xl text-gold'
@@ -34,6 +45,10 @@ const Testimonials = () => {
                     </div>
                     <div
                         className=' space-y-3'
+                        data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-back"
+                        data-aos-delay="300"
+                        data-aos-offset="0"
                     >
                         <h1
                             className='text-2xl text-gold'
