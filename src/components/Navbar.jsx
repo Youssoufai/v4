@@ -6,6 +6,7 @@ import '../index.css'
 import logo from '../assets/2.png'
 import logo2 from '../assets/3.png'
 import logo3 from '../assets/4.png'
+import { Link } from 'react-router-dom';
 const Navbar = () => {
 
     useEffect(() => {
@@ -24,21 +25,24 @@ const Navbar = () => {
                 <ul
                     className='hidden cursor-pointer md:flex gap-12 font-semibold tracking-wider justify-end text-sm'
                 >
-                    <li
-                        className=' text-white hover:text-gold '
-                    >Home</li>
-                    <li
-                        className=' text-white hover:text-gold '
-                    >Initiative</li>
-                    <li
-                        className=' text-white hover:text-gold '
-                    >Post</li>
-                    <li
-                        className=' text-white hover:text-gold '
-                    >Clothing Brand</li>
-                    <li
-                        className=' text-white hover:text-gold '
-                    >More</li>
+                    <Link to='/'
+                        className='text-white hover:text-gold '
+                    >Home</Link>
+                    <Link
+                        to='/vdi'
+                        className='text-white hover:text-gold '
+                    >Initiative</Link>
+                    <Link
+                        to='/post'
+                        className='text-white hover:text-gold '
+                    >Post</Link>
+                    <Link
+                        to='/ecom '
+                        className='text-white hover:text-gold '
+                    >Clothing Brand</Link>
+                    <Link to='/'
+                        className='text-white hover:text-gold '
+                    >More</Link>
                 </ul>
                 <details className="md:hidden dropdown  bg-gold">
                     <summary className="m-1 btn">open or close</summary>
