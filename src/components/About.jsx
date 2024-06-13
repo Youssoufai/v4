@@ -7,9 +7,11 @@ const About = () => {
     return (
         <>
             <section className='h-full p-16 bg-lightGray flex flex-col md:flex-row items-center gap-5'>
-                <div>
+
+                <div data-aos="zoom-in-right" >
                     <img src={fine} className='h-[400px]' alt="" />
                 </div>
+
                 <div className='p-4 w-full md:w-[50%] h-[450px] flex justify-between flex-col gap-4'>
                     <div>
                         <h1 className='text-base font-semibold text-gold' id='after'>ABOUT US</h1>

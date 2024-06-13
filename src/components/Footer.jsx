@@ -1,14 +1,18 @@
 import React, { useEffect } from 'react';
+import { BsInstagram, BsTwitter, BsTwitterX, BsWhatsapp, BsX } from 'react-icons/bs';
+import { FaFacebook } from 'react-icons/fa';
 
 const Footer = () => {
     return (
         <>
-            <section className=' p-9 h-screen space-y-4 bg-[#2C3E50]'>
-                <h1 className='text-center text-navyBlue  text-4xl'>Get in touch</h1>
-                <p
-                    className='text-center mx-72 text-white'
-                >We’re here to help! Whether you have inquiries about our products and services, need support, or are interested in collaborating with Versalink, our team is ready to assist you. Contact us today to discuss your needs and discover how we can work together to achieve your goals.</p>
-                <section
+            <section className=' p-9 h-screen space-y-8 bg-[#333] text-white'>
+                <div className='space-y-4'>
+                    <h1 className='text-center text-gold  text-4xl'>Get in touch</h1>
+                    <p
+                        className='text-center mx-72'
+                    >We’re here to help! Whether you have inquiries about our products and services, need support, or are interested in collaborating with Versalink, our team is ready to assist you. Contact us today to discuss your needs and discover how we can work together to achieve your goals.</p>
+
+                </div>     <section
 
                 >
                     <div

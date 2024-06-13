@@ -28,8 +28,9 @@ const TeamCarousel = () => {
     };
 
     return (
-        <section className="p-9 space-y-9 h-screen">
+        <section className="p-8 space-y-9 h-screen my-8">
             <h1 className="text-center text-4xl text-gold">Our Teams</h1>
+            <p className='text-center mx-12'>Meet the Versalink team – a group of skilled professionals passionate about innovation and excellence</p>
             <Carousel
                 responsive={responsive}
                 infinite={true}

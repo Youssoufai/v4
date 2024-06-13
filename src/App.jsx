@@ -10,7 +10,7 @@ import Testimonials from './components/Testimonials'
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import Help from './components/Help'
-
+import Bottom from './components/Bottom'
 function App() {
   return (
     <>
@@ -27,6 +27,7 @@ function App() {
       <Help />
       <Team />
       <Footer />
+      <Bottom />
     </>
   )
 }
