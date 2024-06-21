@@ -18,11 +18,11 @@ const About = () => {
                     <div>
                         <h1 className='text-base font-semibold text-gold' id='after'>ABOUT US</h1>
 
-                        <h1 className='text-4xl'>
+                        <h1 className='text-4xl text-black'>
                             Welcome to <span className='text-gold'>Versalink</span>
                         </h1>
                     </div>
-                    <div className>
+                    <div className="text-black">
                         <p>
                             Versalink isn't your average company. Founded in 2023 by Alamin Abbas, we're a social enterprise driven by a powerful idea: to create a ripple effect of positive change in Nigeria. We achieve this by blending business success with social impact.
                         </p>

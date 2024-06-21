@@ -40,11 +40,11 @@ const TeamCarousel = () => {
                 customRightArrow={<FaChevronRight className="right-arrow" />}
             >
                 {[abba, fk, isa, ak].map((image, index) => (
-                    <div key={index} className="bg-lightGray text-center space-y-8 shadow-lightGold rounded-lg p-4 max-w-xs mx-auto">
+                    <div key={index} className="bg-black text-center space-y-8 shadow-lightGold rounded-lg text-white p-4 max-w-xs mx-auto">
                         <img src={image} className="h-[280px] w-[100%] rounded-t-md mx-auto" alt="" />
                         <div className="space-y-3">
-                            <h1 className="text-center text-2xl text-navyBlue">Abba Ibrahim Jidda</h1>
-                            <h3 className="text-xl text-blue">CEO</h3>
+                            <h1 className="text-center text-2xl text-white">Abba Ibrahim Jidda</h1>
+                            <h3 className="text-xl text-gold">CEO</h3>
                         </div>
                     </div>
                 ))}

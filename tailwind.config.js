@@ -13,7 +13,8 @@ export default {
         'navyBlue': '#1d2a38',
         'lightGray': '#faf7f0',
         'blue': '#2b60a8',
-        'brown': '#222520'
+        'brown': '#222520',
+        'black': '#000000'
       },
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif']
