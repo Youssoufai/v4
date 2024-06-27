@@ -4,6 +4,9 @@ import 'aos/dist/aos.css';
 import '../index.css';
 import Carousel from './Carousel';
 import img from "../assets/slide01.jpg"
+import img2 from "../assets/water1.webp"
+import img3 from "../assets/ovation.webp"
+import img4 from "../assets/water3.webp"
 '../assets/3.png'
 '../assets/4.png'
 const slides = [
@@ -13,68 +16,50 @@ const Services = () => {
     return (
         <>
             <section
-                className='p-12 h-full bg-neutral'
+                className='bg-[#f8eed3] text-black p-9 space-y-8'
             >
-                <div
-                    className='space-y-8 flex flex-col items-center'
+                <h1 className='text-4xl text-center mx-[27rem] m-4'
+                    style={{
+                        lineHeight: '40px'
+                    }}
+                >Stay updated with stories from our team</h1>
+                <section
+                    className='flex justify-center gap-8'
                 >
-                    <h1
-                        className='text-gold text-2xl text-center w-[200px]'
-
-                    >News & Events</h1>
-                    <h1
-                        className='text-center text-3xl'
-                    >Stay updated with stories from our team</h1>
-                </div>
-                <div>
-
                     <div
-                        className='flex flex-col md:flex-row justify-center items-center gap-8 md:justify-between p-9 '
-
+                        className='p-4'
                     >
                         <div
-                            className='space-y-5 p-9 w-[350px] text-center flex flex-col items-center shadow-md  shadow-navyBlue rounded-lg md:shadow-none'
-                            data-aos="fade-left"
+                            className='w-[333.32px] h-[234.66]'
                         >
-                            <img src={img}
-                                className='w-[300px] h-[230px]'
+                            <img src={img2}
+                                className='w-full'
                                 alt="" />
-                            <h1 className="text-gold font-bold">Versalink at Youth Agenda Submit</h1>
-                            <p>
-                                Versalink made a strong showing at the Youth Agenda Summit 2.0 on October 20th, 2023. Our founder took center stage, granting a captivating interview where he emphasized the critical role young people play in shaping Nigeria's future. Overall the Summit was an insightful discussion.
-                            </p>
                         </div>
-                        <div
-                            className='space-y-5 w-[350px] text-center flex flex-col items-center shadow-md p-9 shadow-navyBlue rounded-lg md:shadow-none '
-                            data-aos="fade-up"
-                        >
-                            <img src={img}
-                                className='w-[300px] h-[230px]'
-                                alt="" />
-                            <h1 className="text-black font-bold"><h1 className="text-gold font-bold">Versalink at Youth Agenda Submit</h1></h1>
-                            <p>
-                                Versalink's Legislative Conference welcomed esteemed guest Honourable Tanko Adamu. His insights highlighted the vital role of the legislature in progress, particularly regarding education funding. A key discussion point was the push to raise the education budget to 26%, echoing UNESCO's recommendation.
-                            </p>
-                        </div>
-                        <div
-                            className='space-y-5 w-[350px] text-center flex flex-col items-center shadow-md p-9 shadow-navyBlue rounded-lg md:shadow-none'
-                            data-aos="fade-right"
-                        >
-                            <img src={img}
-                                className='w-[300px] h-[230px]'
-                                alt="" />
-                            <h1 className="text-gold font-bold">Versalinks Ramadan Event</h1>
-                            <p>
-
-                                Versalinks hosted a successful Ramadan lecture series at Baze University under the theme "Holding Unto Our Deen in Today's World."
-
-                                The series kicked off on March 15th with an enlightening lecture by renowned scholar Abu jabir Abdullah, known as Pen Abdul. The series concluded with a final lecture by Nasiruddin Shuraim Abdulmumin, known as Nshuraim.
-
-                            </p>
-                        </div>
-
                     </div>
-                </div>
+                    <div
+                        className='p-4'
+                    >
+                        <div
+                            className='w-[333.32px] h-[234.66]'
+                        >
+                            <img src={img3}
+                                className='w-full'
+                                alt="" />
+                        </div>
+                    </div>
+                    <div
+                        className='p-4'
+                    >
+                        <div
+                            className='w-[333.32px] h-[234.66]'
+                        >
+                            <img src={img4}
+                                className='w-full'
+                                alt="" />
+                        </div>
+                    </div>
+                </section>
             </section>
         </>
     )

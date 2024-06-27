@@ -32,7 +32,7 @@ const About = () => {
                     </div>
                     <div>
                         <button
-                            className='px-6 py-3 bg-gold'
+                            className='px-6 py-3 bg-gold text-black'
                         >Read More</button>
                     </div>
                 </div>
