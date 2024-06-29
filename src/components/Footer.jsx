@@ -5,31 +5,16 @@ import { FaFacebook } from 'react-icons/fa';
 const Footer = () => {
     return (
         <>
-            <section className=' p-9 h-full space-y-8 bg-[#333] text-white'>
-                <div className='space-y-4'>
-                    <h1 className='text-center text-gold  text-4xl'>Get in touch</h1>
-                    <p
-                        className='text-center md:mx-72'
-                    >We’re here to help! Whether you have inquiries about our products and services, need support, or are interested in collaborating with Versalink, our team is ready to assist you. Contact us today to discuss your needs and discover how we can work together to achieve your goals.</p>
-
-                </div>     <section
-
+            <section className='p-12 h-full space-y-8 bg-[#f7f7f7] text-white'>
+                <div
+                    className='text-black text-center space-y-8'
                 >
-                    <div
-                        className='max-w-screen flex justify-center'
-                    >
-                        <form action=""
-                            className='flex flex-col gap-4 w-3/6'
-                        >
-                            <div className="flex md:flex-row justify-between gap-4">
-                                <input type="text" placeholder='Name' className='md:w-3/6 w-full p-4' />
-                                <input type="text" placeholder='Email' className='md:w-3/6 w-full  p-4' />
-                            </div>
-                            <textarea name="" placeholder='Leave your message here...' className='p-4'></textarea>
-                            <input type="submit" value="Send it now" className='px-8 py-3 bg-orange-300 cursor-pointer text-white' />
-                        </form>
-                    </div>
-                </section>
+                    <h1 className='text-4xl font-bold text-center'>Help us improve</h1>
+                    <p>We want to hear from you! In this 5-minute survey, we'll ask you to weigh in on our 100% model and how you feel about the different ways you can support a charity.</p>
+                    <button>
+                        <a href="#" className='bg-[#ffca0a] px-6 py-3'>TAKE OUR SURVEY</a>
+                    </button>
+                </div>
             </section>
         </>
     )

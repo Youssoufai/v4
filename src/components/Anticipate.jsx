@@ -10,10 +10,10 @@ import { BsMortarboard } from 'react-icons/bs';
 export const Anticipate = () => {
     return (
         <>
-            <section className='p-9 space-y-8 h-screen flex items-center justify-around flex-col'>
+            <section className='p-9 space-y-8 h-full flex items-center justify-around flex-col'>
                 <h1 className='text-center text-4xl font-bold'>Our Services</h1>
                 <div
-                    className='flex justify-center gap-3'
+                    className='flex flex-col md:flex-row justify-center gap-3 space-y-8'
                 >
                     <div className='space-y-4 flex justify-center items-center flex-col text-center'>
                         <FaTree className="text-gold text-8xl scale-125 mr-2 hover:scale-125 transition-transform duration-200" />

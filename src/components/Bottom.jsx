@@ -5,7 +5,7 @@ const Bottom = () => {
     return (
         <>
             <section
-                className='flex gap-4 bg-black text-white p-12'
+                className='flex gap-4 bg-[#f7f7f7] text-white p-12'
             >
                 <div
                     className='p-4 space-y-4 w-[45%] justify-center items-center'
