@@ -10,45 +10,14 @@ import { BsMortarboard } from 'react-icons/bs';
 export const Anticipate = () => {
     return (
         <>
-            <section className='p-9 space-y-8 h-full flex items-center justify-around flex-col'>
-                <h1 className='text-center text-4xl font-bold'>Our Services</h1>
-                <div
-                    className='flex flex-col md:flex-row justify-center gap-3 space-y-8'
-                >
-                    <div className='space-y-4 flex justify-center items-center flex-col text-center'>
-                        <FaTree className="text-gold text-8xl scale-125 mr-2 hover:scale-125 transition-transform duration-200" />
-                        <h1 className='text-4xl text-gold'>Advocacy</h1>
-                        <p>We advocate at the local, state, and national levels for policy reform and program improvements to assist people at risk of hunger.</p>
-                        <div>
-                            <button
-                                className='px-8 py-2 bg-gold rounded-full text-white'
-                            >Learn More</button>
-                        </div>
-                    </div>
-                    <div className='space-y-4 flex justify-center items-center flex-col text-center'>
-                        <BsMortarboard className="text-gold text-8xl scale-125 mr-2 hover:scale-125 transition-transform duration-200" />
-                        <h1 className='text-4xl text-gold'>Advocacy</h1>
-                        <p>We advocate at the local, state, and national levels for policy reform and program improvements to assist people at risk of hunger.</p>
-                        <div>
-                            <button
-                                className='px-8 py-2 bg-gold rounded-full text-white'
-                            >Learn More</button>
-                        </div>
-                    </div>
-                    <div className='space-y-4 flex justify-center items-center flex-col text-center'>
-                        <GiFoodTruck className="text-gold text-8xl scale-125 mr-2 hover:scale-125 transition-transform duration-200" />
-                        <h1 className='text-4xl text-gold'>Advocacy</h1>
-                        <p>We advocate at the local, state, and national levels for policy reform and program improvements to assist people at risk of hunger.</p>
-                        <div>
-                            <button
-                                className='px-8 py-2 bg-gold rounded-full text-white'
-                            >Learn More</button>
-                        </div>
-                    </div>
-
+            <section className='h-screen text-center p-9 space-y-8 text-white'>
+                <div className="m-12 space-y-8">
+                    <h1 className='text-4xl'>Give with Confidence</h1>
+                    <p>All of our operational expenses are funded by a private community of donors called The Well so you can trust that 100% of your donation goes directly to water solutions. But we don’t stop there.</p>
+                    <p>From our commitment to equipping local partners, to our tech, to the environmental sustainability of our water projects, “good enough” is never good enough for us. We’re setting new standards for transparency and innovation, and these companies and organizations agree.
+                    </p>
                 </div>
-
-            </section >
+            </section>
         </>
     )
 }

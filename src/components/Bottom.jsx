@@ -5,54 +5,24 @@ const Bottom = () => {
     return (
         <>
             <section
-                className='flex gap-4 bg-[#f7f7f7] text-white p-12'
+                className='flex gap-4 bg-[#fff] text-white p-12'
             >
-                <div
-                    className='p-4 space-y-4 w-[45%] justify-center items-center'
+                <form action=""
+                    className='p-9 bg-[#F7F7F7] space-y-7 shadow-sm shadow-slate-400 rounded-sm flex items-center'
                 >
-                    <h1 className='text-4xl text-gold'>Versalink</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptates molestiae, natus tenetur qui fugiat dicta praesentium consectetur non voluptatem.</p>
-                </div>
-                <div className='p-4 space-y-3'>
-                    <h1 className='text-xl'> Versalink Co.</h1>
-                    <ul
-                        className='space-y-3 text-blue'
+                    <div>
+                        <h1 className='text-black text-center text-2xl'>Add Impact To Your Inbox</h1>
+                        <p className='text-black text-center'>Get our emails to stay in the know.</p>
+                    </div>
+                    <div
+                        className='flex'
                     >
-                        <li className='hover:underline hover:cursor-pointer'>About Versalink</li>
-                        <li className='hover:underline hover:cursor-pointer'>Versalink Post</li>
-                        <li className='hover:underline hover:cursor-pointer'>Versalink Development Initiative</li>
-                        <li className='hover:underline hover:cursor-pointer'>Versalink Clothing Brand</li>
-                    </ul>
-                </div>
-                <div
-                    className='p-4'
-                >
-                    <h1>Follow Us</h1>
-                    <ul
-                        className='flex gap-4 m-5'
-                    >
-                        <li
-                            className='hover:cursor-pointer'
-                        >
-                            <FaFacebook />
-                        </li>
-                        <li
-                            className='hover:cursor-pointer'
-                        >
-                            <BsTwitterX />
-                        </li>
-                        <li
-                            className='hover:cursor-pointer'
-                        >
-                            <BsInstagram />
-                        </li>
-                        <li
-                            className='hover:cursor-pointer'
-                        >
-                            <BsWhatsapp />
-                        </li>
-                    </ul>
-                </div>
+                        <input type="text" placeholder='First name' className='rounded' />
+                        <input type="text" placeholder='Last name' />
+                        <input type="text" placeholder='Email' />
+                        <button type="submit" id='submit' className='w-full bg-gold h-full md:rounded-e-lg'>SUBSCRIBE</button>
+                    </div>
+                </form>
             </section>
         </>
     )
